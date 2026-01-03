@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPath Consultancy - Guiding Your Future</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+           <script>
+            const observer = new IntersectionObserver(
+            (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                }
+            });
+            },
+            { threshold: 0.15 }
+        );
+
+  document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+        </script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">CareerWay Consultancy</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                     <!-- Services Dropdown -->
+                    <li class="dropdown">
+                        <a href="#services">Services ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#services">Right Career Consultacy</a></li>
+                            <li><a href="#colleges">College Consultancy</a></li>
+                            <li><a href="#exams">Competitive Exams Consultancy</a></li>
+                            <li><a href="#courses">Enhancement Course</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#testimonials">Testimonals</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Guiding Students to Their Dream Careers</h1>
+            <p>We provide personalized, honest, and supportive career guidance to build a bright future. Whether online or offline, we're here for you.</p>
+            <a href="#contact" class="cta-btn">Book Free Consultation</a>
+        </div>
+    </section>
+
+   <section id="services" style="background-color: var(--light-gray);">
+  <div class="container">
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+
+      <!-- Right Career Guidance -->
+      <div class="service-card" style="--i:1;">
+        <a href="services/right-career.html" class="card-link">
+          <i class="fas fa-comments"></i>
+          <h3>Right Career Guidance</h3>
+          <p>
+            Personalized roadmaps via online chat, video, audio consultations,
+            or offline face-to-face meetings. Build confidence with expert advice.
+          </p>
+        </a>
+        <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK_1"
+           class="cta-btn"
+           target="_blank">
+           Chat with a Counsellor
+        </a>
+      </div>
+
+      <!-- College Consultancy -->
+      <div class="service-card" style="--i:2;">
+        <a href="services/college-consultancy.html" class="card-link">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>College Consultancy</h3>
+          <p>
+            Choose the right national and international colleges with
+            course-college comparisons, eligibility analysis, and admission guidance.
+          </p>
+        </a>
+        <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK_2"
+           class="cta-btn"
+           target="_blank">
+           Schedule Offline Meeting
+        </a>
+      </div>
+
+      <!-- Competitive Exams -->
+      <div class="service-card" style="--i:3;">
+        <a href="services/competitive-exams.html" class="card-link">
+          <i class="fas fa-trophy"></i>
+          <h3>Competitive Exam Consultancy</h3>
+          <p>
+            Guidance for JEE, NEET, GATE, IIT-JAM, CA, CS, CMA, government exams,
+            UCEED, NIFT, and more.
+          </p>
+        </a>
+        <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK_3"
+           class="cta-btn"
+           target="_blank">
+           Book Free Consultation
+        </a>
+      </div>
+
+      <!-- Enhancement Courses -->
+      <div class="service-card" style="--i:4;">
+        <a href="services/enhancement-courses.html" class="card-link">
+          <i class="fas fa-robot"></i>
+          <h3>Future-Focused Enhancement Courses</h3>
+          <p>
+            Upskill in AI, ML, Data Science, Computer Science, Robotics,
+            and Quantum Computing for research-oriented careers.
+          </p>
+        </a>
+        <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK_4"
+           class="cta-btn"
+           target="_blank">
+           Explore Courses
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <section id="aboutus" style="background-color: var(--white);">
+        <div class="container">
+            <h2>About Us</h2>
+            <p style="max-width:900px; margin:0 auto; text-align:center;">
+                CareerWay Consultancy is a student-focused career guidance platform
+                dedicated to helping learners make confident and informed decisions
+                about their future.
+            </p>
+
+            <div class="service-grid" style="margin-top:50px;">
+                <div class="service-card" style="--i:1;">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Our Mission</h3>
+                    <p>
+                        To provide honest, personalized, and future-oriented career
+                        guidance that empowers students to choose the right path
+                        based on their interests, strengths, and goals.
+                    </p>
+                </div>
+
+                <div class="service-card" style="--i:2;">
+                    <i class="fas fa-eye"></i>
+                    <h3>Our Vision</h3>
+                    <p>
+                        To become a trusted career consultancy for students and
+                        parents by combining academic insight, industry trends, and
+                        practical career planning.
+                    </p>
+                </div>
+
+                <div class="service-card" style="--i:3;">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>How We Help</h3>
+                    <p>
+                        Through online and offline counseling, college selection,
+                        competitive exam guidance, and future-ready skill
+                        enhancement programs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <section id="testimonials">
+  <div class="container">
+    <h2>What Our Students Say</h2>
+
+    <div class="testimonial-slider">
+      <div class="testimonial-track">
+
+        <div class="testimonial" style="--i:1;">
+          <p>"CareerPath helped me choose the perfect college and prepare for JEE. Their guidance was honest and supportive!"</p>
+          <cite>- Aarav, Engineering Student</cite>
+        </div>
+
+        <div class="testimonial" style="--i:2;">
+          <p>"The online consultations were convenient, and the personalized roadmap boosted my confidence for the future."</p>
+          <cite>- Priya, Medical Aspirant</cite>
+        </div>
+
+        <div class="testimonial" style="--i:3;">
+          <p>"Offline meetings made a big difference. They focused on my strengths and future career goals."</p>
+          <cite>- Raj, AI Enthusiast</cite>
+        </div>
+
+        <!-- Placeholder 4 -->
+        <div class="testimonial" style="--i:4;">
+          <p>"Clear guidance and honest advice helped me avoid wrong career choices."</p>
+          <cite>- Sneha, Science Student</cite>
+        </div>
+
+        <!-- Placeholder 5 -->
+        <div class="testimonial" style="--i:5;">
+          <p>"Very professional consultancy. Parents can truly trust their process."</p>
+          <cite>- Ankit, Parent</cite>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="background-color: var(--light-gray);">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p style="text-align:center; max-width:800px; margin:0 auto 40px;">
+      Contact us for personalized career advice. We're here to support your journey.
+    </p>
+
+    <div class="contact-wrapper">
+
+      <!-- LEFT: Contact Info -->
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+
+        <p><strong> Phone</strong><br>
+        +91 98203 90117 <br> +91 89278 60181 </p>
+
+        <p><strong>📧 Email</strong><br>
+        contact@careerway.in <br> career.way2026@gmail.com</p>
+
+        <!-- Social Media Links -->
+        <div class="contact-socials">
+        <a href="https://www.linkedin.com/company/YOUR_LINKEDIN_PAGE"
+            target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://www.facebook.com/YOUR_FACEBOOK_PAGE"
+            target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/YOUR_INSTAGRAM_PAGE"
+            target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        </div>
+      </div>
+
+      <!-- RIGHT: Contact Form -->
+      <div class="contact-form">
+        <form action="https://formsubmit.co/contact@careerway.in" method="POST">
+
+  <input type="hidden" name="_subject" value="New Contact Message - CareerWay">
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit" class="cta-btn">Send Message</button>
+</form>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CareerWay Consultancy. All rights reserved.</p>
+            <p><a href="#" style="color:var(--white);">Privacy Policy</a> | <a href="#" style="color:var(--white);">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
